@@ -1,4 +1,4 @@
-```import random
+import random
 
 # Generate 20 lists of 10 random IP addresses
 for i in range(20):
@@ -9,4 +9,4 @@ for i in range(20):
         octet3 = str(random.randint(0, 255))
         octet4 = str(random.randint(0, 255))
         ip_list.append(octet1 + "." + octet2 + "." + octet3 + "." + octet4)
-    print(ip_list)```
+    print(ip_list)
